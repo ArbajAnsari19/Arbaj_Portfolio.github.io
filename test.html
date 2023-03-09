@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f223c964eb.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+   <nav>
+     <img src="signn.svg" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenubar()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenubar()"></i>
+    </nav>
+<div class="header-text">
+    <p><span>Welcome to my Portfolio</span></p>
+    <h1>Hi, I'm <span>Arbaj</span> <br> a Developer</h1>
+    </div>
+   </div>
+  </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="arbaj.png" >
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title">About me</h1> 
+                <p>I am a software engineer with a year of experience. 
+                     experienced in leading cross-functional teams in a time-pressured setting
+                      to complete projects on schedule and within budget.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Development</span><br>Web Development using <br>Html, Css, Javascript, Bootstrap, React.js </li>
+                            <li><span>Algorithms</span><br>Data Structure and Algorithms </li>
+                            <li><span>C++</span><br>C++ including object-oriented programming</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2018</span><br>High School - Don Bosco School, Gorakhpur </li>
+                            <li><span>2019-2020</span><br>Senior Secondary High School - S.G.M.I.C</li>
+                            <li><span>2021-2025</span><br>Bachelor of Technology - Indian Institute Of Technology,Roorkee. </li>
+                        </ul>
+                      </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Hobbies">
+<div class="container">
+<h1>My Hobbies</h1>
+<div class="Hobbies-list">
+   <div class="img1">
+    <i class="fa-solid fa-headset"></i>
+    <h2>Gaming</h2>
+    <p>Mobile Phone Gaming</p>
+   </div>
+   <div class="img2">
+    <i class="fa-sharp fa-solid fa-mountain-sun"></i>
+    <h2>Travelling</h2>
+    <p>World Tour</p>
+   </div>
+   <div class="img3">
+    <i class="fa-solid fa-dumbbell"></i>
+    <h2>Gym</h2>
+    <p> Health is wealth</p>
+   </div>
+</div>
+  </div>
+</div>
+<div id="work">
+    <div class="container">
+        <h1><span>My Work</span></h1>
+        <div class="work-list"> 
+            <div class="imgs">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+                
+            </div>
+            <div class="imgs">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app provide you the best playlists from the artist around the world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-music"></i></a>
+                </div>
+            </div>
+            <div class="imgs">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>The app connect you to the nearby mall from your local in radius of 50Km.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-duotone fa-dumpster"></i></i></a>
+                </div>
+            </div>
+        </div>
+<div class="more">
+    <h2><a href="#">SEE MORE</a></h2>
+</div>
+    </div>
+</div>
+   <div id="contact">
+    <div class="container-icon">
+        <h1>My Contact</h1>
+         <div class="row">
+            <div class="left">
+                 <a href = "mailto:arbaj.right@gmail.com"><i class="fa-solid fa-envelope"></i>   E-Mail</a>
+                <a href="https://www.linkedin.com/in/arbaj-ansari-1b9708239"><img src=""><i class="fa-brands fa-linkedin"></i>   Linkedin</a>
+                <a href="https://www.instagram.com/invites/contact/?i=j4d2ksc14xl&utm_content=ggy05be"><img src=""><i class="fa-brands fa-instagram"></i>   Instagram</a>
+                <a href="https://m.facebook.com/100014917906682/"><img src=""><i class="fa-brands fa-facebook"></i>  Facebook</a>
+            </div>
+            <div class="right">
+                <form>
+
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+           </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Arbaj <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+        </div>
+    </div>
+</div>
+<script>
+var tablinks =document.getElementsByClassName("tab-links");
+var tabcontents =document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+ for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+var sidem = document.getElementById("sidemenu");
+function closemenubar(){
+    sidem.style.right = "-200px";
+}
+function openmenubar(){
+    sidem.style.right = "0";  
+}
+</script>
+
+</body>
+</html>
